@@ -1,4 +1,4 @@
-﻿# Camada de contexto: o seu negÃ³cio num lugar sÃ³
+# Camada de contexto: o seu negÃ³cio num lugar sÃ³
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![Camada de contexto](guia/assets/banner.jpg)](https://inematds.github.io/camada-contexto/guia/)
+[![Camada de contexto](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -16,13 +16,13 @@ Este Ã© um kit grÃ¡tis para guardar o contexto do seu negÃ³cio (o que voc�
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/camada-contexto/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
 ## ðŸŽ¬ VÃ­deos
 
-- Explicativo 16:9: https://github.com/inematds/camada-contexto/releases/download/video-v1.0.0/camada-contexto-16x9.mp4
-- Reel 9:16: https://github.com/inematds/camada-contexto/releases/download/video-v1.0.0/camada-contexto-reel.mp4
-- Players no guia: https://inematds.github.io/camada-contexto/guia/#video
+- Explicativo 16:9: https://github.com/linnoff88-dev/camada-contexto/releases/download/video-v1.0.0/camada-contexto-16x9.mp4
+- Reel 9:16: https://github.com/linnoff88-dev/camada-contexto/releases/download/video-v1.0.0/camada-contexto-reel.mp4
+- Players no guia: https://linnoff88-dev.github.io/
 
 ## As trÃªs camadas
 
@@ -37,7 +37,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/camada-con
 ## Como usar
 
 ```bash
-git clone https://github.com/inematds/camada-contexto
+git clone https://github.com/linnoff88-dev/camada-contexto
 cd camada-contexto
 scripts/iniciar.sh ~/minha-empresa-contexto              # cria AGENTS.md, CLAUDE.md, contexto/ e entregas/
 python3 scripts/checar_contexto.py ~/minha-empresa-contexto   # barra senha, banco de dados e planilha
@@ -52,7 +52,7 @@ Depois:
 
 ## LicenÃ§a
 
-MIT. Do [INEMA.CLUB](https://inema.club).
+MIT. Do [ARCKHÉ AI](https://ARCKHÉ AI).
 
 ---
 

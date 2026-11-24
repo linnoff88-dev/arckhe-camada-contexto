@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>camada-contexto — your context in one place, readable by any AI</title>
-<meta name="description" content="Context layer: keep your business context in a private repository that Claude and Codex can read and write. Folder structure, one instruction block, prompts, and a checker. Free from INEMA.CLUB.">
-<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/camada-contexto/guia/">
-<link rel="alternate" hreflang="en" href="https://inematds.github.io/camada-contexto/guia/en/">
-<link rel="alternate" hreflang="es" href="https://inematds.github.io/camada-contexto/guia/es/">
+<title>camada-contexto â€” your context in one place, readable by any AI</title>
+<meta name="description" content="Context layer: keep your business context in a private repository that Claude and Codex can read and write. Folder structure, one instruction block, prompts, and a checker. Free from ARCKHÉ AI.">
+<link rel="alternate" hreflang="pt-BR" href="https://linnoff88-dev.github.io/
+<link rel="alternate" hreflang="en" href="https://linnoff88-dev.github.io/
+<link rel="alternate" hreflang="es" href="https://linnoff88-dev.github.io/
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -39,8 +39,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .inema:hover{filter:brightness(1.15)}
+  nav .ARCKHÉ{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .ARCKHÉ:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -121,12 +121,12 @@
 </style>
 
 <nav><div class="wrap">
-  <a class="brand" href="#top"><span class="emoji">🗄️</span> camada-contexto</a>
+  <a class="brand" href="#top"><span class="emoji">ðŸ—„ï¸</span> camada-contexto</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     <a class="sec" href="#oque">What it is</a>
@@ -134,8 +134,8 @@
     <a class="sec" href="#teste">Test</a>
     <a class="sec" href="#video">Video</a>
     <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
-    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
-    <a class="btn" href="https://github.com/inematds/camada-contexto" target="_blank" rel="noopener">GitHub</a>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">ðŸŒ™</button>
+    <a class="btn" href="https://github.com/linnoff88-dev/camada-contexto" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></nav>
 
@@ -143,15 +143,15 @@
   <div class="glow"></div>
   <div class="wrap">
     <div>
-      <span class="chip">Claude + Codex · one shared context</span>
+      <span class="chip">Claude + Codex Â· one shared context</span>
       <h1>Your context in one place that is <span class="amb">yours</span></h1>
       <p class="lead">Claude, Codex, or the next model all work with the same context. When a better AI comes along, just plug it in.</p>
       <div class="cta">
         <a class="btn" href="#guia">Build my context layer</a>
-        <a class="btn ghost" href="https://github.com/inematds/camada-contexto" target="_blank" rel="noopener">View on GitHub</a>
+        <a class="btn ghost" href="https://github.com/linnoff88-dev/camada-contexto" target="_blank" rel="noopener">View on GitHub</a>
       </div>
     </div>
-    <figure><img src="../assets/banner-en.jpg" alt="Banner: context layer — your business in one place, readable by any AI"></figure>
+    <figure><img src="../assets/banner-en.jpg" alt="Banner: context layer â€” your business in one place, readable by any AI"></figure>
   </div>
 </header>
 
@@ -166,17 +166,17 @@
   <p class="sub">AI apps now work in their own cloud. Great for always-on access; a problem when your context gets stuck there.</p>
   <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="The steps: three layers, files and data, where to keep them, set up, connect both apps, and test" loading="lazy" style="width:100%;display:block"></figure>
   <div class="grid g3">
-    <div class="card"><h3>🤖 Top: the AI</h3><p>Where the work runs: Claude, Codex, or the next AI. It changes; the rest stays.</p></div>
-    <div class="card"><h3>🌉 Middle: the bridge</h3><p>Git, MCP connector, or API. Each app needs its own permission to connect.</p></div>
-    <div class="card"><h3>🗄️ Bottom: what belongs to you</h3><p>Your business files in a private repository. Change the AI; keep the source.</p></div>
+    <div class="card"><h3>ðŸ¤– Top: the AI</h3><p>Where the work runs: Claude, Codex, or the next AI. It changes; the rest stays.</p></div>
+    <div class="card"><h3>ðŸŒ‰ Middle: the bridge</h3><p>Git, MCP connector, or API. Each app needs its own permission to connect.</p></div>
+    <div class="card"><h3>ðŸ—„ï¸ Bottom: what belongs to you</h3><p>Your business files in a private repository. Change the AI; keep the source.</p></div>
   </div>
 </div></section>
 
 <section id="guia"><div class="wrap">
-  <span class="chip">Guide · step by step</span>
+  <span class="chip">Guide Â· step by step</span>
   <h2>Build your layer in 6 steps</h2>
   <p class="sub">First clone the kit. Run the commands from inside its folder.</p>
-<pre><span class="k">git clone</span> <span class="s">https://github.com/inematds/camada-contexto</span>
+<pre><span class="k">git clone</span> <span class="s">https://github.com/linnoff88-dev/camada-contexto</span>
 <span class="k">cd</span> camada-contexto</pre>
   <div style="height:30px"></div>
 
@@ -204,14 +204,14 @@
       <p class="mut">Create a <b>private</b> repository on GitHub. Generate its structure with the kit, fill it in, and check it before uploading. If you already have a context folder, use the prompt to have an agent copy everything to the right place.</p>
 <pre><span class="k">scripts/iniciar.sh</span> ~/minha-empresa-contexto
 <span class="k">python3</span> scripts/checar_contexto.py ~/minha-empresa-contexto
-<span class="c"># OK: 0 block(s) … — passwords, databases, and spreadsheets are blocked</span>
+<span class="c"># OK: 0 block(s) â€¦ â€” passwords, databases, and spreadsheets are blocked</span>
 <span class="k">cat</span> prompts/copiar-contexto.md</pre></div>
   </div>
 
   <div class="passo">
     <figure><img src="../assets/07-instrucoes.jpg" alt="Illustration: two robots read the same instruction sheet pinned to a board" loading="lazy"></figure>
     <div><span class="num">5</span><h3>Connect both apps with the same block</h3>
-      <p class="mut">Connect GitHub in Claude and ChatGPT/Codex, then paste the same block into each app’s project instructions: the repository is the source of truth, read before acting, write on <code>main</code>, ask before deleting, and never save passwords.</p>
+      <p class="mut">Connect GitHub in Claude and ChatGPT/Codex, then paste the same block into each appâ€™s project instructions: the repository is the source of truth, read before acting, write on <code>main</code>, ask before deleting, and never save passwords.</p>
 <pre><span class="k">cat</span> instrucoes/bloco-projeto.md</pre></div>
   </div>
 
@@ -241,14 +241,14 @@
   <h2>Watch the context layer explained</h2>
   <p class="sub">The full explainer with illustrations and animated screens, plus a short reel to share with someone who needs it.</p>
   <div class="vid">
-    <div><video controls preload="none" poster="../assets/poster.jpg" src="https://github.com/inematds/camada-contexto/releases/download/video-v1.0.0/camada-contexto-16x9.mp4"></video><p>Full video (16:9)</p></div>
-    <div class="reel"><video controls preload="none" poster="../assets/poster-reel.jpg" src="https://github.com/inematds/camada-contexto/releases/download/video-v1.0.0/camada-contexto-reel.mp4"></video><p>Reel (9:16)</p></div>
+    <div><video controls preload="none" poster="../assets/poster.jpg" src="https://github.com/linnoff88-dev/camada-contexto/releases/download/video-v1.0.0/camada-contexto-16x9.mp4"></video><p>Full video (16:9)</p></div>
+    <div class="reel"><video controls preload="none" poster="../assets/poster-reel.jpg" src="https://github.com/linnoff88-dev/camada-contexto/releases/download/video-v1.0.0/camada-contexto-reel.mp4"></video><p>Reel (9:16)</p></div>
   </div>
 </div></section>
 
 <section id="arquivos"><div class="wrap">
   <span class="chip">In the repository</span>
-  <h2>What’s included</h2>
+  <h2>Whatâ€™s included</h2>
   <div class="grid g4">
     <div class="card"><h3>modelo/</h3><p>AGENTS.md, CLAUDE.md, and the contexto/ folder with business, voice, audience, rules, decisions, and skills.</p></div>
     <div class="card"><h3>instrucoes/</h3><p>The single block to paste into Claude and ChatGPT/Codex projects.</p></div>
@@ -260,9 +260,9 @@
 <footer>
   <div class="wrap">
     <div class="pill">GitHub</div><div class="pill">Claude</div><div class="pill">Codex</div>
-    <p style="margin-top:18px">camada-contexto · free kit ·
-      <a href="https://github.com/inematds/camada-contexto">inematds/camada-contexto</a> ·
-      <a href="https://inema.club">INEMA.CLUB</a></p>
+    <p style="margin-top:18px">camada-contexto Â· free kit Â·
+      <a href="https://github.com/linnoff88-dev/camada-contexto">linnoff88-dev/camada-contexto</a> Â·
+      <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 
@@ -270,10 +270,10 @@
   (function(){
     var KEY='camada-contexto-theme';
     var b=document.body, t=document.getElementById('themeToggle');
-    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; }
+    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='â˜€ï¸'; }
     t.addEventListener('click',function(){
       var light=b.classList.toggle('light');
-      t.textContent=light?'☀️':'🌙';
+      t.textContent=light?'â˜€ï¸':'ðŸŒ™';
       localStorage.setItem(KEY, light?'light':'dark');
     });
   })();
