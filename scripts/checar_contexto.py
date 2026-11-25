@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """checar_contexto.py — confere uma pasta de camada de contexto ANTES de enviar para o repositório.
 
-Só leitura e local: não chama API nem envia nada.
+Só leitura e local: nêo chama API nem envia nada.
 
 Confere:
   - se os arquivos básicos existem (AGENTS.md, CLAUDE.md, contexto/negocio.md, voz.md, publico.md, regras.md)
   - se há algo parecido com senha, token ou chave de API (bloqueia)
-  - se há banco de dados ou planilha dentro da pasta (dado vivo não mora aqui: bloqueia)
+  - se há banco de dados ou planilha dentro da pasta (dado vivo nêo mora aqui: bloqueia)
   - se há arquivo grande demais (> 1 MB: aviso) ou modelo sem preencher (<...>: aviso)
 
 Uso: python3 scripts/checar_contexto.py <pasta>     (sai com 1 se houver bloqueio)
@@ -26,7 +26,7 @@ def main():
         print(__doc__); return 2
     raiz = pathlib.Path(sys.argv[1]).expanduser()
     if not raiz.is_dir():
-        print(f"pasta não existe: {raiz}"); return 2
+        print(f"pasta nêo existe: {raiz}"); return 2
     bloqueios, avisos = [], []
     for b in BASICOS:
         if not (raiz / b).is_file():
@@ -36,7 +36,7 @@ def main():
             continue
         rel = p.relative_to(raiz)
         if p.suffix.lower() in DADO_VIVO:
-            bloqueios.append(f"{rel}: banco de dados/planilha — dado vivo vai para um banco (ex.: Supabase), não para o repositório")
+            bloqueios.append(f"{rel}: banco de dados/planilha — dado vivo vai para um banco (ex.: Supabase), nêo para o repositório")
             continue
         if p.stat().st_size > 1_000_000:
             avisos.append(f"{rel}: {p.stat().st_size // 1024} KB — arquivo grande; contexto é texto curto")

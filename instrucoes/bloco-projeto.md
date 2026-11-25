@@ -13,7 +13,7 @@ Antes de qualquer trabalho neste projeto:
 Ao escrever no repositório:
 - trabalhe na branch main, sem criar branches;
 - o que você produzir vai em entregas/;
-- decisão nova vai em contexto/decisoes.md, com data e motivo.
+- decisêo nova vai em contexto/decisoes.md, com data e motivo.
 
 Nunca:
 - apagar ou renomear arquivo sem me perguntar;
@@ -22,4 +22,4 @@ Nunca:
 
 ## Por que um bloco só
 Se cada app tiver instruções diferentes, você volta a ter duas cópias do negócio. O bloco é curto de propósito:
-ele não explica o negócio, ele aponta para o repositório, que é onde o negócio está escrito.
+ele nêo explica o negócio, ele aponta para o repositório, que é onde o negócio está escrito.

@@ -1,6 +1,6 @@
 # O público
 
-- Quem é: <idade, profissão, momento>
+- Quem é: <idade, profissêo, momento>
 - O que quer: <resultado>
-- O que trava: <medo, objeção>
+- O que trava: <medo, objeçêo>
 - Onde está: <canais>

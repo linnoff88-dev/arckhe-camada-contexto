@@ -17,5 +17,5 @@ rm "$T/ctx/contexto/acesso.md"; : > "$T/ctx/clientes.sqlite"
 python3 scripts/checar_contexto.py "$T/ctx" > "$T/o3.txt"; r=$?
 chk "banco bloqueia" '[ $r -eq 1 ] && grep -q "clientes.sqlite" $T/o3.txt'
 echo "nunca sobrescreve" > "$T/ctx/contexto/voz.md"; scripts/iniciar.sh "$T/ctx" > /dev/null
-chk "não sobrescreve" 'grep -q "nunca sobrescreve" $T/ctx/contexto/voz.md'
+chk "nêo sobrescreve" 'grep -q "nunca sobrescreve" $T/ctx/contexto/voz.md'
 echo "$ok ok, $f falhas"; rm -rf "$T"; [ $f -eq 0 ]

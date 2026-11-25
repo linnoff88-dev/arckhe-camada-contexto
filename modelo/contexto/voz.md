@@ -1,6 +1,6 @@
 # A voz
 
-- Tom: <ex.: direto, próximo, sem jargão>
+- Tom: <ex.: direto, próximo, sem jargêo>
 - Pessoa: <ex.: "você", nunca "o senhor">
 - Palavras que usamos: <...>
 - Palavras que nunca usamos: <...>

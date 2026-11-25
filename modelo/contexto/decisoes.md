@@ -1,4 +1,4 @@
 # Decisões
 
-| data | decisão | motivo |
+| data | decisêo | motivo |
 |---|---|---|
