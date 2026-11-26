@@ -2,7 +2,7 @@
 # Capa do catálogo + 6 banners do guia (live com selo; grade sem selo) pelo Codex. Uso: scripts/gerar_artes.sh
 cd "$(dirname "$0")/.."
 R=$PWD; G=~/.claude/skills/projetos-landing-guia/assets/gerar-banner.sh; mkdir -p logs-tmp
-node ~/.claude/skills/capa-inema/assets/gerar-capa.cjs --repo "$R" --title "Camada de contexto" --cat "Agentes" \
+node ~/.claude/skills/capa-ARCKHÉ/assets/gerar-capa.cjs --repo "$R" --title "Camada de contexto" --cat "Agentes" \
   --save-raw "$R/guia/assets/hero.png" --gerador auto > logs-tmp/capa.log 2>&1 &
 SIDES="escritório claro e moderno: um cofre-arquivo iluminado e aberto, cheio de pastas coloridas, consultado ao mesmo tempo por dois robôs humanoides industriais estilo Tesla Optimus de visor preto, um com detalhes laranja-claro e outro verde-água; uma mulher de camisa azul-clara ao lado"
 live(){ bash $G --repo "$R" --sides "$SIDES" --selo "camada-contexto" "$@"; }
